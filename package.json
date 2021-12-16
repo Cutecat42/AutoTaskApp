@@ -1,0 +1,19 @@
+{
+  "name": "logrocket_nwjs_example",
+  "version": "1.0.0",
+  "description": "A demo app to show how NW.js works",
+  "private": true,
+  "node-remote": "https://ww5.autotask.net/Mvc/Framework/Authentication.mvc/Authenticate",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nw src/",
+    "build-nw": "nwbuild --platforms win64 --buildDir dist/ src/"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nw": "^0.52.2"
+  },
+  "devDependencies": {
+    "nw-builder": "^3.5.7"
+  }
+}
