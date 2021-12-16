@@ -1,6 +1,6 @@
 # AutoTaskApp
 
-This makes the website "AutoTask" into a stand alone desktop app.
+This makes the website "AutoTask" into a stand alone desktop app using NWJS.
 Will need credentials and authcode with PIN to test.
 
 Run the following code to test out without building an exe file
